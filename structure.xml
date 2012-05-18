@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='MessageLog.xsl'?>
+<Log FirstSessionID="1" LastSessionID="2">
+    <Invitation Date="26/11/2010" Time="11:05:13" DateTime="2010-11-26T10:05:13.403Z" SessionID="1">
+        <From>
+            <User FriendlyName="A"/>
+        </From>
+        <File>file.zip</File>
+        <Text Style="color:#4d4d4d; ">A sta inviando file.zip</Text>
+    </Invitation>
+    
+    <InvitationResponse Date="26/11/2010" Time="11:05:34" DateTime="2010-11-26T10:05:34.780Z" SessionID="1">
+        <From>
+            <User FriendlyName="A"/>
+        </From>
+        <File>C:\Users\fabio\Documents\File ricevuti\file.zip</File>
+        <Text Style="color:#4d4d4d; ">È stato ricevuto il file C:\Users\fabio\Documents\File ricevuti\file.zip inviato da A.</Text>
+    </InvitationResponse>
+    
+    <Message Date="27/02/2011" Time="16:13:07" DateTime="2011-02-27T15:13:07.021Z" SessionID="2">
+        <From>
+            <User FriendlyName="B"/></From>
+        <To>
+            <User FriendlyName="A"/>
+        </To>
+        <Text Style="font-family:Segoe UI; color:#000000; ">Hi</Text>
+    </Message>
+    
+    <Message Date="27/02/2011" Time="16:13:16" DateTime="2011-02-27T15:13:16.271Z" SessionID="2">
+        <From>
+            <User FriendlyName="A"/>
+        </From>
+        <To>
+            <User FriendlyName="B"/>
+        </To>
+        <Text Style="font-family:Segoe Print; font-weight:bold; font-style:italic; color:#000000; ">hi</Text>
+    </Message>
+</Log>
